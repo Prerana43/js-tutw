@@ -31,5 +31,31 @@ const myFunction = function(){
     console.log("Hello world");
 }
 
-console.log(typeof bigNumber);
-console.log(typeof heros)
+// console.log(typeof bigNumber);
+// console.log(typeof heros)
+
+
+
+
+// ***************************************
+
+//Stack(Primitive),Heap(Non-Primitve)
+
+let myYoutubename = "prerananishad"
+let anothername = myYoutubename
+anothername = 'chaiaurcode'
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "prerana@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
