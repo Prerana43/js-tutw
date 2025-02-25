@@ -49,3 +49,13 @@ const user = {
     const addTwo = (num1, num2) =>({username: "prerana"})
 
     console.log(addTwo(3, 4))
+
+    //Immediately Invoked Funciton Expression (IIFE)
+
+    // (function chai(){
+    //     console.log('DB Connected');
+    // })();
+
+    ( (name) =>  {
+        console.log(`DB Connected two ${name}`);
+    })('hitesh')
